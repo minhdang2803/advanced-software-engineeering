@@ -1,0 +1,4 @@
+#Sat Nov 19 10:49:26 ICT 2022
+base.0=/Users/minhdang2803/Documents/assignment/group_chatapp_flutter_firebase/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
