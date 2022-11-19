@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minhdang2803/Documents/assignment/group_chatapp_flutter_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
+            "outputFile": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
                     "source": "/Users/minhdang2803/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/res/values-ar/values.xml",

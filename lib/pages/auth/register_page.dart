@@ -1,6 +1,6 @@
 import 'package:chatapp_firebase/helper/helper_function.dart';
 import 'package:chatapp_firebase/pages/auth/login_page.dart';
-import 'package:chatapp_firebase/pages/home_page.dart';
+import 'package:chatapp_firebase/pages/chat_list_page.dart';
 import 'package:chatapp_firebase/service/auth_service.dart';
 import 'package:chatapp_firebase/widgets/widgets.dart';
 import 'package:flutter/gestures.dart';
@@ -175,7 +175,7 @@ class _RegisterPageState extends State<RegisterPage> {
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
           await HelperFunctions.saveUserNameSF(fullName);
-          nextScreenReplace(context, const ChatPage());
+          nextScreenReplace(context, const ChatListPage());
         } else {
           showSnackbar(context, Colors.red, value);
           setState(() {

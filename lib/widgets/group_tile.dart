@@ -24,7 +24,7 @@ class _GroupTileState extends State<GroupTile> {
       onTap: () {
         nextScreen(
             context,
-            ChatPage(
+            HomePage(
               groupId: widget.groupId,
               groupName: widget.groupName,
               userName: widget.userName,

@@ -1,5 +1,5 @@
 import 'package:chatapp_firebase/pages/auth/login_page.dart';
-import 'package:chatapp_firebase/pages/home_page.dart';
+import 'package:chatapp_firebase/pages/chat_list_page.dart';
 import 'package:chatapp_firebase/service/auth_service.dart';
 import 'package:chatapp_firebase/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -53,7 +53,7 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           ListTile(
             onTap: () {
-              nextScreen(context, const ChatPage());
+              nextScreen(context, const ChatListPage());
             },
             contentPadding:
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),

@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minhdang2803/Documents/assignment/group_chatapp_flutter_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "137,142",
+                        "startColumns": "4,4",
+                        "startOffsets": "9992,10300",
+                        "endLines": "141,144",
+                        "endColumns": "12,12",
+                        "endOffsets": "10295,10464"
+                    }
+                },
                 {
                     "source": "/Users/minhdang2803/.gradle/caches/transforms-3/d4be00ef9362846b7e5ef168486a55d7/transformed/core-1.6.0/res/values/values.xml",
                     "from": {
@@ -95,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "/Users/minhdang2803/Documents/assignment/group_chatapp_flutter_firebase/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/minhdang2803/Documents/assignment/ase/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -109,25 +128,6 @@
                         "startOffsets": "8973,9333,9416,9520,9630,9750,9847",
                         "endColumns": "144,82,103,109,119,96,73",
                         "endOffsets": "9113,9411,9515,9625,9745,9842,9916"
-                    }
-                },
-                {
-                    "source": "/Users/minhdang2803/Documents/assignment/group_chatapp_flutter_firebase/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "137,142",
-                        "startColumns": "4,4",
-                        "startOffsets": "9992,10300",
-                        "endLines": "141,144",
-                        "endColumns": "12,12",
-                        "endOffsets": "10295,10464"
                     }
                 }
             ]

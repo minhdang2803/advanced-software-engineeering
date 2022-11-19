@@ -1,4 +1,4 @@
-import 'package:chatapp_firebase/pages/home_page.dart';
+import 'package:chatapp_firebase/pages/chat_list_page.dart';
 import 'package:chatapp_firebase/service/database_service.dart';
 import 'package:chatapp_firebase/widgets/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -84,7 +84,8 @@ class _GroupInfoState extends State<GroupInfo> {
                                       getName(widget.adminName),
                                       widget.groupName)
                                   .whenComplete(() {
-                                nextScreenReplace(context, const ChatPage());
+                                nextScreenReplace(
+                                    context, const ChatListPage());
                               });
                             },
                             icon: const Icon(

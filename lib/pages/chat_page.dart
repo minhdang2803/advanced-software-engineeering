@@ -5,11 +5,11 @@ import 'package:chatapp_firebase/widgets/widgets.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-class ChatPage extends StatefulWidget {
+class HomePage extends StatefulWidget {
   final String groupId;
   final String groupName;
   final String userName;
-  const ChatPage(
+  const HomePage(
       {Key? key,
       required this.groupId,
       required this.groupName,
@@ -17,10 +17,10 @@ class ChatPage extends StatefulWidget {
       : super(key: key);
 
   @override
-  State<ChatPage> createState() => _ChatPageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _ChatPageState extends State<ChatPage> {
+class _HomePageState extends State<HomePage> {
   final ScrollController _controller = ScrollController();
 
 // This is what you're looking for!
