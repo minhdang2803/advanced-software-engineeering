@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
