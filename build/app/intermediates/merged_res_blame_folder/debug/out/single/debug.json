@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/drawable-v21_launch_background.xml.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/drawable-v21/launch_background.xml"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/minhdang2803/Documents/assignment/ase/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/minhdang2803/Documents/assignment/ase/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/build/app/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/cuongtran/Documents/flutter_test/ASE/advanced-software-engineeering/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]
