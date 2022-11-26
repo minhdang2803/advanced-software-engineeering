@@ -46,11 +46,11 @@ class _LoginPageState extends State<LoginPage> {
         body: SafeArea(
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 80),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Form(
                   key: formKey,
                   child: Column(
-                    // mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     // crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       SizedBox(

@@ -27,6 +27,18 @@ class _RegisterPageState extends State<RegisterPage> {
         if (state is RegisterSuccess) {
           Navigator.pop(context);
         }
+        if (state is AuthFail) {
+          final snackBar = SnackBar(
+            content: Text(state.error!),
+            action: SnackBarAction(
+              label: 'Undo',
+              onPressed: () {
+                // Some code to undo the change.
+              },
+            ),
+          );
+          ScaffoldMessenger.of(context).showSnackBar(snackBar);
+        }
       },
       child: Scaffold(
         body: SafeArea(
