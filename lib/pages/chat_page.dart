@@ -65,16 +65,17 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Theme.of(context).primaryColor,
         actions: [
           IconButton(
-              onPressed: () {
-                nextScreen(
-                    context,
-                    GroupInfo(
-                      groupId: widget.groupId,
-                      groupName: widget.groupName,
-                      adminName: admin,
-                    ));
-              },
-              icon: const Icon(Icons.info))
+            onPressed: () {
+              nextScreen(
+                  context,
+                  GroupInfo(
+                    groupId: widget.groupId,
+                    groupName: widget.groupName,
+                    adminName: admin,
+                  ));
+            },
+            icon: const Icon(Icons.info),
+          )
         ],
       ),
       body: Column(
@@ -91,15 +92,16 @@ class _HomePageState extends State<HomePage> {
               color: Colors.grey[500],
               child: Row(children: [
                 Expanded(
-                    child: TextFormField(
-                  controller: messageController,
-                  style: const TextStyle(color: Colors.white),
-                  decoration: const InputDecoration(
-                    hintText: "Send a message...",
-                    hintStyle: TextStyle(color: Colors.white, fontSize: 16),
-                    border: InputBorder.none,
+                  child: TextFormField(
+                    controller: messageController,
+                    style: const TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      hintText: "Send a message...",
+                      hintStyle: TextStyle(color: Colors.white, fontSize: 16),
+                      border: InputBorder.none,
+                    ),
                   ),
-                )),
+                ),
                 const SizedBox(
                   width: 12,
                 ),

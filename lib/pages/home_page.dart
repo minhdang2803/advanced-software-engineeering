@@ -1,8 +1,14 @@
 import 'package:chatapp_firebase/pages/appointment_page.dart';
 import 'package:chatapp_firebase/pages/chat_list_page.dart';
+import 'package:chatapp_firebase/pages/profile.dart';
+import 'package:chatapp_firebase/pages/profile_page.dart';
 import 'package:chatapp_firebase/shared/constants.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+
+import '../helper/helper_function.dart';
+import '../service/database_service.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -15,18 +21,16 @@ class _HomeState extends State<Home> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
+  static const List<Widget> _widgetOptions = [
     Text(
       'Index 0: Home',
       style: optionStyle,
     ),
     AppoinmentPage(),
-    Text(
-      'Index 2: School',
-      style: optionStyle,
-    ),
-    ChatListPage()
+    MyProfileView(),
+    ChatListPage(),
   ];
+
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;

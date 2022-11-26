@@ -67,7 +67,7 @@ class _AppoinmentPageState extends State<AppoinmentPage> {
               nextScreen(
                   context, ProfilePage(email: email, userName: userName));
             },
-            icon: const FaIcon(FontAwesomeIcons.user),
+            icon: Image.asset('assets/person.png'),
           )
         ],
         elevation: 0,
@@ -110,7 +110,7 @@ class _AppoinmentPageState extends State<AppoinmentPage> {
                           width: 40.0,
                           color: Colors.grey.shade100,
                           child: const Image(
-                            image: AssetImage('assets/person.png'),
+                            image: AssetImage('assets/doctor.png'),
                           ),
                         ),
                       ),
