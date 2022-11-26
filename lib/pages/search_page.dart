@@ -179,7 +179,7 @@ class _SearchPageState extends State<SearchPage> {
             Future.delayed(const Duration(seconds: 2), () {
               nextScreen(
                   context,
-                  HomePage(
+                  ChatPage(
                       groupId: groupId,
                       groupName: groupName,
                       userName: userName));

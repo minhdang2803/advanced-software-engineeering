@@ -120,12 +120,7 @@ class _ChatListPageState extends State<ChatListPage> {
           ),
           ListTile(
             onTap: () {
-              nextScreenReplace(
-                  context,
-                  ProfilePage(
-                    userName: userName,
-                    email: email,
-                  ));
+              nextScreenReplace(context, ProfilePage());
             },
             contentPadding:
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
@@ -183,6 +178,7 @@ class _ChatListPageState extends State<ChatListPage> {
       )),
       body: groupList(),
       floatingActionButton: FloatingActionButton(
+        heroTag: UniqueKey(),
         onPressed: () {
           popUpDialog(context);
         },

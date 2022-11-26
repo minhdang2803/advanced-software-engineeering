@@ -64,8 +64,7 @@ class _AppoinmentPageState extends State<AppoinmentPage> {
             onPressed: () async {
               await gettingUserData();
               // ignore: use_build_context_synchronously
-              nextScreen(
-                  context, ProfilePage(email: email, userName: userName));
+              nextScreen(context, ProfilePage());
             },
             icon: const FaIcon(FontAwesomeIcons.user),
           )
